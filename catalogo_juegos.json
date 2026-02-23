@@ -1,0 +1,17 @@
+[
+    {
+        "Titulo": "Super Mario 64",
+        "Año": 1996,
+        "Consola": "Nintendo 64"
+    },
+    {
+        "Titulo": "The Legend of Zelda: Ocarina of Time",
+        "Año": 1998,
+        "Consola": "Nintendo 64"
+    },
+    {
+        "Titulo": "Halo: Combat Evolved",
+        "Año": 2001,
+        "Consola": "Xbox"
+    }
+]
