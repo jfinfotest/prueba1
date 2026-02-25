@@ -18,8 +18,8 @@ st.info("💡 Nota: Asegúrate de tener el archivo Excel en la misma ruta antes 
 st.subheader("Tu resultado:")
 # ESTUDIANTE: Escribe tu código a continuación
 try:
-    df_excel = pd.read_excel("reporte_financiero.xlsx")
-    st.dataframe(df_excel)
+df_excel = pd.read_excel("reporte_financiero.xlsx")
+st.dataframe(df_excel)
 except FileNotFoundError:
     st.error("Por favor, asegúrate de crear el archivo reporte_financiero.xlsx primero o dejar que el script lo genere.")
 except Exception as e:
